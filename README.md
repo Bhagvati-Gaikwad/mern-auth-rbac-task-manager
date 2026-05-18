@@ -1,6 +1,10 @@
 # MERN Auth RBAC Task Manager
 
 A submission-ready MERN stack project for the Backend Developer Intern assignment. It includes JWT authentication, role-based access control, versioned REST APIs, validation, centralized errors, Swagger documentation, MongoDB schema design, and a simple React frontend.
+<img width="2880" height="1704" alt="image" src="https://github.com/user-attachments/assets/215d0733-ab8a-4791-879f-b609a56c2084" />
+<img width="2880" height="1704" alt="image" src="https://github.com/user-attachments/assets/efbe0d94-70f1-4ea8-ade9-fa31507d0294" />
+
+
 
 ## Tech Stack
 
@@ -129,9 +133,3 @@ db.users.updateOne({ email: "admin@example.com" }, { $set: { role: "admin" } })
 
 The project uses a modular structure so new resources can be added as separate models, controllers, routes, and validators. For production, use managed MongoDB, Redis caching for frequent reads, centralized logging, Docker-based deployment, horizontal scaling behind a load balancer, refresh tokens with rotation, and separate services for auth, notifications, and analytics once traffic grows.
 
-## Submission Checklist
-
-- Push this repository to GitHub.
-- Add screenshots or a short demo video if possible.
-- Include the Swagger docs URL in the README.
-- Submit the GitHub link through the Google Form.
